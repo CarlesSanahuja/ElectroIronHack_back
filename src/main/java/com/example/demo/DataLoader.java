@@ -21,6 +21,8 @@ public class DataLoader implements CommandLineRunner {
         microondas1.setImage("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcToOyx5jy8KmG_nita9xB0fMGrNbFXWuTAV3g&s");
         microondas1.setStock(2);
         microondas1.setPrice(240.0);
+        microondas1.setLongDescription("Acaba de preparar tus mejores recetas con el microondas Hisense H23MOBSD1HG, de color negro de 800 W y función grill un potencia grill de 1000W." +
+                "Su uso te será muy cómodo y fácil gracias a su panel de control digital táctil.");
         productRepository.save(microondas1);
 
         Product microondas2 = new Product();
